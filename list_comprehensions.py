@@ -1,8 +1,4 @@
 ####################################
-# Dictionaries: Python's version of the Java HashMap
-
-
-####################################
 # List comprehensions: a way to process stuff in lists quickly
 
 # Have this

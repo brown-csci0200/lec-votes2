@@ -23,6 +23,8 @@ class PollRecord:
     def __str__(self) -> str:
         return "Poll for question " + self.name + ", choices: " + str(self.options)
 
+# an Example of use
+"""
 option_list = ["red", "green", "blue"]
 p = PollRecord("Favorite color?", option_list)
 print(p)
@@ -30,3 +32,4 @@ p.cast_vote("red")
 p.cast_vote("green")
 
 print("Green has " + str(p.count_votes_for("green")) + " votes")
+"""
