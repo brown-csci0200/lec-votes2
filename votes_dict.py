@@ -15,11 +15,13 @@ def count_votes_for(poll, for_option: str):
 
     return total
 
+# Example of use
 some_poll = {
     "name": "Favorite color?",
     "options": ["red", "green", "blue"],
     "votes": [],
 }
+
 print(some_poll)
 cast_vote(some_poll, "red")
 cast_vote(some_poll, "green")
